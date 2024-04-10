@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void viewdata(View view) {
         e1=(EditText) findViewById(R.id.edit1);
-        String ee1=e1.getText().toString();
+        String ee1=e1.getText().toString().trim();
         int b= helper.getData(ee1);
         if(b==1){
         Intent intent1 = new Intent(getApplicationContext(), movieslist.class);
