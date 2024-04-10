@@ -29,8 +29,8 @@ public class register extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String ed1=edd1.getText().toString();
-                String ed2=edd2.getText().toString();
+                String ed1=edd1.getText().toString().trim();
+                String ed2=edd2.getText().toString().trim();
                 if(ed1.isEmpty() || ed2.isEmpty()){
                     Toast.makeText(getApplicationContext(),"Enter Email ID",Toast.LENGTH_LONG).show();
                 }else{
