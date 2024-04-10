@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyProject</string>
+    <string-array name="array">
+        <item>Coimbatore</item>
+        <item>Chennai</item>
+        <item>Madurai</item>
+        <item>Salem</item>
+    </string-array>
+    <string-array name="array1">
+        <item>Tamil</item>
+        <item>Hindi</item>
+        <item>English</item>
+    </string-array>
+
+</resources>
+
